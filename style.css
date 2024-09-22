@@ -1,0 +1,139 @@
+
+/* global-section */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.global-section{
+    padding: 3rem 0;
+}
+.global-heading{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.global-head-p{
+    color: rgb(100, 75, 38);
+    text-align: center;
+}
+.global-button{
+    width: 140px; 
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+   }
+   /* header section */
+.header{
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 238, 238);
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 0px;
+    font-style: normal;
+}
+.header-right{
+    margin-right: 0px;
+    
+}
+
+
+/* First section */
+.first-section{
+    background-image: url(./assests/travel-by-plane-woman-passenger-260nw-2467550689.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    padding: 10rem 0;
+    text-align: center;
+}
+.first-section p{
+    font-size: 2rem;
+}
+.first-section h2 {
+    font-size: 5rem;
+    margin: 10px 0;
+    
+}
+/* about section */
+.about-me-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.about-sub-div2{
+    width: 500px;
+}
+.about-sub-div2 h2{
+    font-size: 33px;
+    padding: 10px;
+}
+.about-sub-div2 p{
+    color: #7B7B7B;
+    margin: 15 0;
+}
+/* this is service area */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.all-img-buttom{
+    width: 350px;
+    height:260px;
+}
+.all-img-card{
+    width: 60px;
+    height:50px;
+}
+.my-pic{
+    width: 230px;
+    height:250px ;
+    padding: 16px;
+}
+/* contact section */
+.contact-heading{
+font-size: 55px;
+
+text-align: center;
+}
+form{
+    margin-left: 36rem;
+    margin-top: 28px;
+
+}
+form input{
+    width: 450px;
+}
+form textarea{
+    width: 450px;
+}
+.submit-button{
+    width: 150px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    text-align: center;
+    
+}
+.footer{
+padding-top: 0px;
+padding:20px ;
+} 
+.header-right{
+    text-decoration: none;
+}
